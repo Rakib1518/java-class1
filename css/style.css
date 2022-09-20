@@ -1,0 +1,144 @@
+
+/*.box{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    background-color: darkkhaki;
+    display: block;
+    margin-top:60px ;
+   margin-left: 150px;
+}
+
+
+.hide{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: black;
+    color:#fff;
+    border-radius: 4px;
+    margin-top:100px;
+}
+
+.show{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: red;
+    color:#fff;
+    border-radius: 4px;
+}
+
+.shownBtn{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: black;
+    color:rgb(241, 6, 6);
+    border-radius: 4px;
+   
+}*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: coral;
+    height:80px;
+
+
+}
+nav button {
+    margin-left: 50px;
+    width:100px;
+    height:80px;
+    text-align: center;
+    background-color:red;
+    color:black;
+    font-size: 40px;
+    border:none;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+nav button span{
+    width:100%;
+    height:100%;
+    display: block;
+    line-height: 80px;
+
+}
+nav button .HumberMenu{
+   
+    width:100px;
+    height:80px;
+}
+/*-------------------close------------------------------*/
+
+.menuBar{
+    width:400px;
+    height:calc(100vh - 80px);
+   
+    background-color: burlywood;
+    padding: 20px 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scaleX(0);
+    transform-origin: left;
+    font-size: 25px;
+    font-family: arial;
+    transition: 0.9s;
+}
+.menuBar a{
+    text-decoration: none;
+    margin-top: 40px;
+    display: block;
+    color:darkolivegreen;
+
+}
+.activeSidebar{
+    transform:scaleX(1);
+}
+nav .SerchBtn{
+    float: right;
+    margin-right:50px;
+    font-size: 30px;
+   
+}
+
+.serchBar{
+    width:600px;
+    height:40px;
+    background-color: rgb(240, 236, 243);
+    margin:auto;
+    margin-top:-300px;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border:1px solid black;
+    transform: scaleY(0);
+    transform-origin: top;
+
+}
+.serchBar a{
+    text-decoration: none;
+    line-height: 40px;
+    margin-left:26px;
+    font-size: 18px;
+    color:#000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.serchBar span{
+    float: right;
+    line-height: 40px;
+    margin-right:26px;
+}
+ nav.SerchBtn .searchBarIcon{
+    width:100px;
+    height:80px;
+    background-color: blue;
+    display: block;
+ }
+.SerchActive{
+    transform: scaleY(1);
+    transition: 01s;
+}
